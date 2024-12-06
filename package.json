@@ -1,0 +1,20 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "Task Management Web Application Backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
